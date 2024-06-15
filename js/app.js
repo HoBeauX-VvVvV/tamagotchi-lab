@@ -22,7 +22,9 @@
 // 7) Create reset functionality.
 
 /*----------------------------- Event Listeners -----------------------------*/
-
+playButtonEl = document.querySelector('#play');
+feedButtonEl = document.querySelector('#feed');
+sleepButtonEl = document.querySelector('#sleep');
 // 6) Handle each instance of a player clicking a button with the use of a 
 //    `handleClick()` function.
 
